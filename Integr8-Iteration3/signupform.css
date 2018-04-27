@@ -1,0 +1,219 @@
+body {
+    background-image: url("https://images5.alphacoders.com/437/437716.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+input {
+	position: relative;
+	border: none;
+	outline: none;
+	font-size: 5vw;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(55,204,95);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(55,204,95);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(55,204,95);
+}
+
+#transparent_div {
+	position: absolute;
+	left: 0%;
+	width: 100%;
+	height: 130%;
+	background-color: rgb(6,21,81);
+	opacity: 0.7;
+}
+
+.nav-text {
+	font-size: 1.1vw;
+}
+
+.nav-text:hover {
+	background-color: rgb(104,176,77);
+}
+
+.hap {
+	font-size: 1.7vw;
+	color: rgb(6,21,81);
+}
+
+#active {
+	background-color: rgb(104,176,77);
+}
+
+
+#login {
+	position: relative;
+	right: -5px;
+}
+
+#form_block {
+	position: absolute;
+	top: 25%;	
+	left: 25%;
+	border: 0.2vw solid rgb(34,125,58);
+	width: 17.35vw;
+	height: 24.9vw;
+}
+
+#firstname {
+	width: 8vw;
+	height: 1.8vw;
+	font-size: 1.2vw;
+}
+
+#lastname {
+	width: 8.1vw;
+	height: 1.8vw;
+	left: 0.5vw;
+	font-size: 1.2vw;
+}
+
+#birthday {
+	width: 16.9vw;
+	height: 1.8vw;
+	position: absolute;
+	top: 12%;
+	font-size: 1.2vw;
+}
+
+#gender {
+	width: 16.9vw;
+	height: 1.8vw;
+	position: absolute;
+	top: 24%;
+	font-size: 1.2vw;
+}
+
+#username {
+	width: 16.9vw;
+	height: 1.8vw;	
+	position: absolute;
+	top: 36%;
+	font-size: 1.2vw;
+}
+
+#email {
+    display: block;
+	width: 16.9vw;
+	height: 12.7vw;
+	text-align: top;
+	position: absolute;
+	top: 48%;
+    padding: 0 0 10vw 0;
+	font-size: 1.2vw;
+}
+
+#basic_info {
+	position: absolute;
+	top: 20.3%;	
+	left: 25%;
+	width: 17.5vw;
+	height: 3vw;
+	border-radius: 0.2vw;
+	background: linear-gradient(rgb(34,125,58), rgb(55,204,95));
+	text-align: center;
+	font-size: 2vw;
+	color: white;
+}
+
+
+#basic_info:hover {
+	background-color: rgb(34,125,58);
+	transition:.5s;
+}
+
+#academic_block {
+	position: absolute;
+	left: 20%;
+	top: 65%;
+	width: 60vw;
+	height: 38vw;
+	background-color: white;
+	border: 0.3vw solid rgb(34,125,58);
+}
+
+#academic_info {
+	text-align: center;
+	font-size: 3vw;
+	color: rgb(28,138,67);
+}
+
+#form_block2 {
+	position: absolute;
+	top: 25%;	
+	left: 7%;
+	border: 0.2vw solid rgb(34,125,58);
+	width: 17.4vw;
+	height: 22vw;
+}
+
+#form_block3 {
+	position: absolute;
+	top: 25%;	
+	left: 64%;
+	border: 0.2vw solid rgb(34,125,58);
+	width: 17.4vw;
+	height: 22vw;
+}
+
+.academic_input {
+	width: 16.9vw;
+	height: 1.8vw;
+	font-size: 1.2vw;
+}
+
+#where_from {
+	position: absolute;
+	top: 17%;	
+	left: 6.9%;
+	width: 17.5vw;
+	height: 3vw;
+	border-radius: 0.2vw;
+	background: linear-gradient(rgb(34,125,58), rgb(55,204,95));
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#where_going {
+	position: absolute;
+	top: 17%;	
+	left: 63.9%;
+	width: 17.5vw;
+	height: 3vw;
+	border-radius: 0.2vw;
+	background: linear-gradient(rgb(34,125,58), rgb(55,204,95));
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#button1 {
+	position: absolute;
+	left: 37%;
+	top: 88%;
+	background-color: rgb(34,125,58);
+	border-radius: 0.3vw;
+	color: white;
+	padding: 5px;
+	border-color: rgb(34,125,58);
+	font-size: 1.5vw;
+}
+
+#button1:hover {
+	background-color: rgb(179, 0, 89);
+	border-color: rgb(179, 0, 89);
+	transition:.5s;
+}
+
+
+
