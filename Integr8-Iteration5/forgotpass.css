@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(236,240,242);
+}
+
+#forgot_block {
+	background-color: white;
+	width: 45vw;
+	height: 25vw;
+	position: absolute;
+	top: 10%;
+	left: 28%;
+}
+
+#register {
+	position: absolute;
+	top: 110%;
+	left: 0%;
+	font-size: 1.3vw;	
+}
+
+#login {
+	position: absolute;
+	top: 110%;
+	left: 152%;
+	font-size: 1.3vw;
+}
+
+h1 {
+	font-size: 2vw;
+	text-align: center;
+}
+form {
+	position: absolute;
+	left: 5%;
+	font-size: 2vw;
+}
+
+input {
+	width: 165%;
+}
+
+p {
+	font-size: 1.2vw;
+}
+
+input[type=submit] {
+	font-size: 1.5vw;
+	color: white;
+	background-color: rgb(104,176,77);
+	border-radius: 0.5vw;
+	border-color: rgb(104,176,77);
+}
+
+input[type=submit]:hover {
+	background-color: rgb(34,125,58);
+	border-color: rgb(34,125,58);
+	transition:.5s;
+}
+
