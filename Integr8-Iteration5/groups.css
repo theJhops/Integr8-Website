@@ -1,7 +1,5 @@
-body {
-    background-image: url("https://images5.alphacoders.com/437/437716.jpg");
-	background-size: cover;
-	background-repeat: repeat;
+html, body, .bg {
+	background-color: #eee;
 }
 
 input {
@@ -49,10 +47,13 @@ input {
 	background-color: rgb(104,176,77);
 }
 
-
 #login {
 	position: relative;
 	right: -5px;
+}
+
+.logo {
+	display: inline-block;
 }
 
 #group_block {
