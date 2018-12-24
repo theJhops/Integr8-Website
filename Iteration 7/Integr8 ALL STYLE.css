@@ -1,0 +1,337 @@
+
+h1{font-family: 'Lato', sans-serif;
+}
+h2{font-family: 'Lato', sans-serif;
+}
+h3{font-family: 'Lato', sans-serif;
+}
+h4{font-family: 'Lato', sans-serif;
+}
+
+/* Make anchor NavButtons not go purple when linked */
+.NavButton > a, .NavButton > a:visited,
+.NavButton > a:hover, .NavButton > a:focus, .NavButton > a:active { 
+	text-decoration: none; color:white; 
+}
+
+/* does the same as above for 'Sign Up!' button */
+#button1 > a, #button1 > a:visited,
+#button1 > a:hover, #button1 > a:focus, #button1 > a:active{
+	text-decoration: none; color:white;
+}
+
+/* the "." in ".NavButton" is used for a whole class, 
+while hashtag is used for individual IDs */
+
+.NavButton { 
+	/* Style for all navigation buttons -- */
+	background-color: #4fb05e;
+	color: white;
+	border-radius: 7px;
+	position:relative;
+	font-size: 14px;
+}
+
+/* this code below is a cleaner way to add interactive javaScript 
+functionality via CSS instead. Since it references the class "NavButton", 
+it automatically applies this to all buttons below */
+.NavButton:hover { 
+	/* whenev mouse hovers over button, background color changes */
+	background-color: #3c8447;
+}
+
+#wrapper {/* This div controls the width + length of the webpage */
+            width: 960px;
+            height: 920px;
+            padding-top: 0px;
+            }
+
+#NavbarProfile{
+	width: 50px;
+	height: 50px;
+	left: 135px;
+	bottom:75px;
+}
+
+#NavbarHome{/* this button & the other navbar buttons are linked to .NavButton 
+cuz "class="NavButton" is in its HTML code*/
+	width: 86px;
+	height: 45px;
+	left: 153px;
+	bottom: 84px;
+}
+
+#NavbarFindFriends{
+	width:138px;
+	height: 45px;
+	left:172px;
+	bottom:84px;
+}
+
+#NavbarGroups{
+	width: 93px;
+	height: 45px;
+	left: 191px;
+	bottom: 84px;
+}
+
+#NavbarArticlesInfo{
+	width: 130px;
+	height: 45px;
+	left: 210px;
+	bottom: 84px;
+}
+
+#NavbarEvents{
+	width: 90px;
+	height: 45px;
+	left: 229px;
+	bottom: 84px;
+}
+
+#NavbarJobs{
+	width: 90px;
+	height: 45px;
+	left: 248px;
+	bottom: 84px;
+}
+
+#Line1{ /* Are you a student going abroad? */
+	background-color: #ffeecc;
+	color: green;
+	width:850px;
+	position: relative;
+	left:220px;
+	bottom:0px;}
+
+#Line2{ /* Sign up and Integr8 into your new surroundings */
+	background-color: #ffeecc;
+	width: 300px;
+	position: relative;
+	left:1030px; 
+	bottom: 267px;
+	font-size: 19px;}
+
+#Line3{/* Filter and find new friends, jobs and more */
+	background-color: #ffeecc;
+	width: 900px;
+	position: relative;
+	left: 445px;
+	bottom: 45px;
+	font-size: 19px;}
+
+#button1{/* Sign up! (on right side) */
+	background-color: #479e54;
+	border-radius: 39px;
+	position: relative;
+	width: 160px;
+	height:60px;
+	left: 1088px;
+	bottom: 412px;
+	font-size: 13px;
+	line-height:0px;
+}
+
+.fourSmallerPics {/* style class for the 4 mid photos */
+	position: relative;
+	border: black 1px solid;
+	width: 219px;
+	height: 173px;
+}
+
+.fourSmallerButtons{
+	background-color: #479e54;
+	border-radius: 20px;
+	position: relative;
+	width: 150px;
+}
+#button2{/* Find Friends */
+	left:-303px;
+	bottom: -42px;
+}
+
+#Line4{/* "Find other exchange..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	width:240px;
+	left:53px;
+	bottom: -46px;
+	font-size: 18px;
+}
+
+#button3{/* Find Groups */
+	left:221px;
+	bottom:323px;
+}
+
+#Line5{/* "After you sign up..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	width:240px;
+	left:413px;
+	bottom:318px;
+	font-size: 18px;
+}
+
+#button4{/* Find Events */
+	left: 582px;
+	bottom: 663px;
+}
+
+#Line6{/* "With your new friends..."(paragraph) */
+	background-color: #ffeecc;
+	position: relative;
+	width: 240px;
+	left:770px;
+	bottom: 658px;
+	font-size: 18px;
+	}
+
+#button5{/* Find Jobs */
+	left: 940px;
+	bottom: 1028px;
+}
+
+#Line7{/* "Land a job specifically..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	width: 240px;
+	left:1130px;
+	bottom: 1023px;
+	font-size: 18px;
+}
+
+#vsTitle{/* Vision Statement */
+	background-color:#ffeecc;
+	position:relative;
+	width:300px;
+	left:578px;
+	bottom: 955px;
+	}
+
+#vsText{
+	background-color:#ffeecc;	
+	position:relative;
+	width:950px;
+	left:210px;
+	bottom:955px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#whatareyou{
+	background-color: #4db8ff;
+	border-radius:10px;
+	width:410px;
+	height:190px;
+	position:relative;
+	left:391px;
+	bottom:915px;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif; 
+}
+
+/****************************************BELOW IS FOR REGISTER EMAIL PAGE***************************/
+
+#Registeremailpage {
+    background-color: rgb(236,240,242);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.registerForm {
+	background-color: white;
+	width: 50vw;
+	height: 50vw;
+	position: relative;
+	top: 15px;
+	left: 28%;
+}
+
+#registerTitle{
+	position:relative;
+	top:5%;
+	left:40%;
+	font-size: 2.2vw;
+} 
+
+.formTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.typingFields{ /*The 3 places to type in info*/
+	position:relative;
+	left:8%;
+	width:75%;
+	height:7%;
+	font-size: 2vw;
+}
+
+#emailAddress{
+	top:4%;
+}
+#emailTypeField{
+	top:-74px; /* for some reason this must be in pixels instead of percent */
+}
+
+
+#passwordTitle{
+	top:-5.5%;
+}
+#passTypeField{
+	top:-145px;
+}
+
+
+#redoPassTitle{
+	top:-15.5%;
+}
+#redoPassField{
+	top:-216px;
+}
+
+
+#ServiceTermsline{
+	position: relative;
+	left:18.7%;
+	top:-31%;
+	font-size: 1.1vw;
+}
+
+#createAccountButton{
+	background-color: #4fb05e;
+	border-radius: 7px;
+	position:relative;
+	left:8.1%;
+	top:-199px;
+	width:75.5%;
+	height:8%;
+	color: white;
+	font-size: 2vw;
+}
+
+#loginLink {/* "Already have an account? Login" */
+	position: relative;
+	left: 34.3%;
+	top:-80px;
+	width: 35vw;
+	font-size: 1.5vw;
+}
+
+input[type=submit] {
+	font-size: 1.5vw;
+	color: white;
+	background-color: rgb(104,176,77);
+	border-radius: 0.5vw;
+	border-color: rgb(104,176,77);
+}
+
+input[type=submit]:hover {
+	background-color: rgb(34,125,58);
+	border-color: rgb(34,125,58);
+	transition:.5s;
+}
+
