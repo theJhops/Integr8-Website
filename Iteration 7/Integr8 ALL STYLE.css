@@ -1,0 +1,747 @@
+
+h1{font-family: 'Lato', sans-serif;
+}
+h2{font-family: 'Lato', sans-serif;
+}
+h3{font-family: 'Lato', sans-serif;
+}
+h4{font-family: 'Lato', sans-serif;
+}
+
+/* Make anchor NavButtons not go purple when linked */
+.NavButton > a, .NavButton > a:visited,
+.NavButton > a:hover, .NavButton > a:focus, .NavButton > a:active { 
+	text-decoration: none; color:white; 
+}
+
+/* does the same as above for 'Sign Up!' button */
+#button1 > a, #button1 > a:visited,
+#button1 > a:hover, #button1 > a:focus, #button1 > a:active{
+	text-decoration: none; color:white;
+}
+
+/* the "." in ".NavButton" is used for a whole class, 
+while hashtag is used for individual IDs */
+
+.NavButton { 
+	/* Style for all navigation buttons -- */
+	background-color: #4fb05e;
+	color: white;
+	border-radius: 7px;
+	position:relative;
+	font-size: 14px;
+}
+
+/* this code below is a cleaner way to add interactive javaScript 
+functionality via CSS instead. Since it references the class "NavButton", 
+it automatically applies this to all buttons below */
+.NavButton:hover { 
+	/* whenev mouse hovers over button, background color changes */
+	background-color: #3c8447;
+}
+
+
+#wrapper {/* This div controls the width + length of the webpage */
+            width: 960px;
+            height: 850px;
+            padding-top: 0px;
+            }
+
+#NavbarProfile{
+	width: 50px;
+	height: 50px;
+	left: 135px;
+	bottom:75px;
+}
+
+#NavbarHome{/* this button & the other navbar buttons are linked to .NavButton 
+cuz "class="NavButton" is in its HTML code*/
+	width: 86px;
+	height: 45px;
+	left: 153px;
+	bottom: 84px;
+}
+
+#NavbarFindFriends{
+	width:138px;
+	height: 45px;
+	left:172px;
+	bottom:84px;
+}
+
+#NavbarGroups{
+	width: 93px;
+	height: 45px;
+	left: 191px;
+	bottom: 84px;
+}
+
+#NavbarArticlesInfo{
+	width: 130px;
+	height: 45px;
+	left: 210px;
+	bottom: 84px;
+}
+
+#NavbarEvents{
+	width: 90px;
+	height: 45px;
+	left: 229px;
+	bottom: 84px;
+}
+
+#NavbarJobs{
+	width: 90px;
+	height: 45px;
+	left: 248px;
+	bottom: 84px;
+}
+
+#Line1{ /* Are you a student going abroad? */
+	background-color: #ffeecc;
+	color: green;
+	width:850px;
+	position: relative;
+	left:220px;
+	bottom:0px;
+}
+
+#Line2{ /* Sign up and Integr8 into your new surroundings */
+	background-color: #ffeecc;
+	width: 300px;
+	position: relative;
+	left:1030px; 
+	bottom: 267px;
+	font-size: 19px;
+}
+
+#Line3{/* Filter and find new friends, jobs and more */
+	background-color: #ffeecc;
+	width: 900px;
+	position: relative;
+	left: 445px;
+	bottom: 45px;
+	font-size: 19px;
+}
+
+#button1{/* Sign up! (on right side) */
+	background-color: #479e54;
+	border-radius: 39px;
+	position: relative;
+	width: 160px;
+	height:60px;
+	left: 1088px;
+	bottom: 412px;
+	font-size: 13px;
+	line-height:0px;
+}
+
+.fourSmallerPics {/* style class for the 4 mid photos */
+	position: relative;
+	border: black 1px solid;
+	width: 219px;
+	height: 173px;
+}
+
+.fourSmallerButtons{
+	background-color: #479e54;
+	border-radius: 20px;
+	position: relative;
+	width: 150px;
+}
+#button2{/* Find Friends */
+	left:-303px;
+	bottom: -42px;
+}
+
+#Line4{/* "Find other exchange..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	width:240px;
+	left:53px;
+	bottom: -46px;
+	font-size: 18px;
+}
+
+#button3{/* Find Groups */
+	left:221px;
+	bottom:323px;
+}
+
+#Line5{/* "After you sign up..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	width:240px;
+	left:413px;
+	bottom:318px;
+	font-size: 18px;
+}
+
+#button4{/* Find Events */
+	left: 582px;
+	bottom: 663px;
+}
+
+#Line6{/* "With your new friends..."(paragraph) */
+	background-color: #ffeecc;
+	position: relative;
+	width: 240px;
+	left:770px;
+	bottom: 658px;
+	font-size: 18px;
+	}
+
+#button5{/* Find Jobs */
+	left: 940px;
+	bottom: 1028px;
+}
+
+#Line7{/* "Land a job specifically..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	width: 240px;
+	left:1130px;
+	bottom: 1023px;
+	font-size: 18px;
+}
+
+#ogTitle{/* Vision Statement */
+	background-color:#ffeecc;
+	position:relative;
+	width:300px;
+	left:590px;
+	bottom: 955px;
+	}
+
+#ogText{
+	background-color:#ffeecc;	
+	position:relative;
+	width:950px;
+	left:210px;
+	bottom:955px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#whatareyou{
+	background-color: #4db8ff;
+	border-radius:10px;
+	width:410px;
+	height:190px;
+	position:relative;
+	left:391px;
+	bottom:915px;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif; 
+}
+
+/****************************************BELOW IS FOR REGISTER EMAIL PAGE***************************/
+
+#Registeremailpage {
+    background-color: rgb(236,240,242);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.registerForm {
+	background-color: white;
+	width: 50vw;
+	height: 50vw;
+	position: relative;
+	top: 15px;
+	left: 28%;
+}
+
+#registerTitle{
+	position:relative;
+	top:5%;
+	left:15%;
+	font-size: 2.2vw;
+} 
+
+.formTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.typingFields{ /*The 3 places to type in info*/
+	position:relative;
+	left:8%;
+	width:75%;
+	height:7%;
+	font-size: 2vw;
+}
+
+#emailAddress{
+	top:4%;
+}
+#emailTypeField{
+	top:-74px; /* for some reason this must be in pixels instead of percent */
+}
+
+
+#passwordTitle{
+	top:-5.5%;
+}
+#passTypeField{
+	top:-145px;
+}
+
+
+#redoPassTitle{
+	top:-15.5%;
+}
+#redoPassField{
+	top:-216px;
+}
+
+
+#ServiceTermsline{
+	position: relative;
+	left:18.7%;
+	top:-31%;
+	font-size: 1.1vw;
+}
+
+#createAccountButton{
+	background-color: #4fb05e;
+	border-radius: 7px;
+	position:relative;
+	left:8.1%;
+	top:-199px;
+	width:75.5%;
+	height:8%;
+	color: white;
+	font-size: 2vw;
+}
+
+#loginLink {/* "Already have an account? Login" */
+	position: relative;
+	left: 34.3%;
+	top:-80px;
+	width: 35vw;
+	font-size: 1.5vw;
+}
+
+input[type=submit] {
+	font-size: 1.5vw;
+	color: white;
+	background-color: rgb(104,176,77);
+	border-radius: 0.5vw;
+	border-color: rgb(104,176,77);
+}
+
+input[type=submit]:hover {
+	background-color: rgb(34,125,58);
+	border-color: rgb(34,125,58);
+	transition:.5s;
+}
+
+/****************************************BELOW IS FOR LOGIN PAGE***************************/
+#loginPage {
+    background-color: rgb(236,240,242);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#loginWrapper {/* This div controls the width + length of the webpage */
+            width: 960px;
+            height: 770px;
+            padding-top: 0px;
+            }
+
+.loginForm {
+	background-color: white;
+	width: 45vw;
+	height: 38vw;
+	position: relative;
+	top: 35px;
+	left: 31%;
+}
+
+.loginFormTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.7vw;
+}
+
+#registerEmailLink {/* "Need to make an account? Sign up" */
+	position: relative;
+	left: 36.6%;
+	top:-80px;
+	width: 35vw;
+	font-size: 1.5vw;
+}
+
+#loginButton{
+	background-color: #4fb05e;
+	border-radius: 7px;
+	position:relative;
+	left:36.5%;
+	top:-39px;
+	width:25.5%;
+	height:9%;
+	color: white;
+	font-size: 2vw;
+}
+
+#loginEmailAddress{
+	top:11%;
+}
+
+.loginTypingFields{ /*The 3 places to type in info*/
+	position:relative;
+	left:8%;
+	width:82%;
+	height:9%;
+	font-size: 2vw;
+}
+#loginEmailField{
+	top:-34px; /* for some reason this must be in pixels instead of percent */
+}
+
+#loginPassword{
+	top:1.5%;
+}
+
+#loginPassField{
+	top:-85px;
+}
+
+/****************************************BELOW IS FOR SIGN UP 1st PAGE***************************/
+
+#signUp1stPage {
+    background-color: #ffeecc;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#signUp1stWrapper {/* This div controls the width + length of the webpage */
+            width: 960px;
+            height: 516px;
+            padding-top: 0px;
+            }
+
+.categoryButtons{
+	position:relative;
+	border-radius: 15px;
+	color: white;
+	width:470px;
+	height:430px;
+}
+
+/* Make anchor NavButtons not go purple when linked */
+.categoryButtons > a, .categoryButtons > a:visited,
+.categoryButtons> a:hover, .categoryButtons > a:focus, .categoryButtons > a:active { 
+	text-decoration: none; color:white; 
+}
+
+#intExchangeStudent{
+	background-color: #4fb05e;
+	left:22px;
+	bottom:-24px;
+}
+
+#mobileStudent{
+	background-color: #0066ff;
+	left:407px;
+	bottom:-24px;
+}
+
+#profAbroad{
+	background-color: #b3003b;
+	left:22px;
+	bottom:150px;
+}
+
+#bizorOrg{
+	background-color: #663300;
+	left: 407px;
+	bottom: 160px;
+}
+
+/****************************************BELOW IS FOR SIGN UP 2nd PAGE***************************/
+
+#signUp2ndPage {
+    background-color: #ffeecc;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#signUp2ndWrapper {/* This div controls the width + length of the webpage */
+   			width: 960px;
+    		height: 60px;
+    		padding-top: 0px;
+}
+
+.basicInfoForm {
+	background-color: white;
+	width: 30vw;
+	height: 52vw;
+	position: relative;
+	top: -60px;
+	left: 15%;
+}
+
+#basicInfoTitle{
+	background-color: #4fb05e;
+	width:200px;
+	height:45px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 2em; /*this code aligns the text vertically */
+}
+
+
+.biFormTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.biTypingFields{ /* class for all Basic Info fields*/
+	position:relative;
+	left:8%;
+	width:75%;
+	height:6%;
+	font-size: 1.6vw;
+}
+
+#firstNameTitle{
+	top:3.7%;
+}
+
+#firstNameField{
+	top:-87px; /* for some reason the fields must be in pixels instead of percent */
+}
+
+#lastNameTitle{
+	top:-8.7%;
+}
+
+#lastNameField{
+	top:-179px; 
+}
+
+#bdayTitle{
+	top:-21%;
+}
+
+#genderTitle{
+	top:-33.3%;
+}
+
+#oGenderTitle{
+	position: relative;
+	top:-156px;
+	left:2.5%;
+}
+
+#oGenderField{
+	position:relative;
+	bottom:177px;
+	left:15.7%; 
+	width:59%; 
+	height:21px; 
+	font-size: 1.6vw;
+}
+
+#langTitle{
+	top:-66.3%;
+}
+
+#langField{
+	top:-609px; /* for some reason this must be in pixels instead of percent */
+}
+
+#writeBioTitle{
+	top:-78.3%;
+}
+
+#writeBioField{ /* class for all Basic Info fields*/
+	position:relative;
+	left:8%;
+	width:75%;
+	height:12.5%;
+	top:-698px;
+	font-size: 1.3vw;
+}
+
+/* "Where are you from?"" Form sheet */
+
+.whereRUfromForm {
+	background-color: white;
+	width: 30vw;
+	height: 47vw;
+	position: relative;
+	top: -809px;
+	left: 75%;
+}
+
+#whereAreYouFromTitle{
+	background-color: #4fb05e;
+	width:300px;
+	height:45px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 2em; /*this code aligns the text vertically */
+}
+
+
+.whereRUfromTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.whereRUfromFields{ /* class for all Basic Info fields*/
+	position:relative;
+	left:8%;
+	width:75%;
+	height:6%;
+	font-size: 1.6vw;
+}
+
+#homeCUtitle{
+	top:4%;
+}
+
+#homeCUfield{
+	top:-87px;
+}
+
+#proDegTitle{
+	top:-9%;
+}
+
+#proDegField{
+	top:-174px;
+}
+
+#gradYearTitle{
+	top:-21.7%;
+}
+
+#gradYearField{
+	top:-261px;
+}
+
+#professionTitle{
+	top:-35.1%;
+}
+
+#professionField{
+	top:-354px;
+}
+
+#cityTitle{
+	top:-48.3%;
+}
+
+#cityField{
+	top:-441px;
+}
+
+#countryTitle{
+	top:-61.7%;
+}
+
+#countryField{
+	top:-531px;
+}
+
+#biLoginLink {/* "Already have an account? Login" */
+	background-color: #479e54;
+	position: relative;
+	left: 79.6%;
+	top: -790px;
+	width: 23vw;
+	height: 3.5vw;
+	border-radius: 50px;
+	font-size: 1.5vw;
+	line-height: 0em; /* align texts vertically */
+}
+
+
+/* "Where are you going?" Form sheet */
+.whereRUgoingForm {
+	background-color: white;
+	width: 30vw;
+	height: 40vw;
+	position: relative;
+	top: -669px;
+	left: 15%;
+}
+
+#whereAreYouGoingTitle{
+	background-color: #4fb05e;
+	width:300px;
+	height:45px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 2em; /*this code aligns the text vertically */
+}
+
+.whereRUgoingTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.whereRUgoingFields{ /* class for fields*/
+	position:relative;
+	left:8%;
+	width:75%;
+	height:6%;
+	font-size: 1.6vw;
+}
+
+#hostCUtitle{
+	top:3.5%;
+}
+
+#hostCUfield{
+	top:-90px;
+}
+
+#whenArriveTitle{
+	top:-11.6%;
+}
+
+#whenArriveField{
+	top:-180px;
+}
+
+#whenLeaveTitle{
+	top:-27.5%;
+}
+
+#whenLeaveField{
+	top:-271px;
+}
+
+#hostCityTitle{
+	top:-43.6%;
+}
+
+#hostCityField{
+	top:-364px;
+}
+
+#hostCountryTitle{
+	top:-60%;
+}
+
+#hostCountryField{
+	top:-459px;
+}
