@@ -471,7 +471,7 @@ input[type=submit]:hover {
 
 #signUp2ndWrapper {/* This div controls the width + length of the webpage */
    			width: 960px;
-    		height: 60px;
+    		height: 48px;
     		padding-top: 0px;
 }
 
@@ -505,9 +505,9 @@ input[type=submit]:hover {
 
 .biTypingFields{ /* class for all Basic Info fields*/
 	position:relative;
-	left:8%;
-	width:75%;
-	height:6%;
+	width:22.5vw;
+	height:3vw;
+	left:0%;
 	font-size: 1.6vw;
 }
 
@@ -516,58 +516,87 @@ input[type=submit]:hover {
 }
 
 #firstNameField{
-	top:-87px; /* for some reason the fields must be in pixels instead of percent */
+	top:3%; 
 }
 
 #lastNameTitle{
-	top:-8.7%;
+	top:-2%;
 }
 
 #lastNameField{
-	top:-179px; 
+	top:3%; 
 }
 
 #bdayTitle{
-	top:-21%;
+	top:-8%;
 }
 
 #genderTitle{
-	top:-33.3%;
+	top:-14%;
+}
+
+#maleButton{
+	position:relative;
+	top:90%;
+	left:13%;
+}
+
+#maleTitle{
+	position: relative;
+	left:63%;
+	top:-13%;
+	font-size: 1.3vw;
+}
+
+#femaleButton{
+	position:relative;
+	top:-20%;
+	left:49.5%;
+}
+
+#femaleTitle{
+	position:relative; 
+	left:63%;
+	top:-13%;
+	font-size: 1.3vw;
 }
 
 #oGenderTitle{
 	position: relative;
-	top:-156px;
-	left:2.5%;
+	top:-22%;
+	left:9%;
+	font-size: 1.4vw;
 }
 
 #oGenderField{
 	position:relative;
-	bottom:177px;
-	left:15.7%; 
+	top:10%;
+	left:0.7%; 
 	width:59%; 
 	height:21px; 
 	font-size: 1.6vw;
 }
 
 #langTitle{
-	top:-66.3%;
+	top:-630.3%;
+	left:19%;
 }
 
 #langField{
-	top:-609px; /* for some reason this must be in pixels instead of percent */
+	top:3%; /* for some reason this must be in pixels instead of percent */
 }
 
 #writeBioTitle{
-	top:-78.3%;
+	top:-718.3%;
+	left:19%;
 }
 
 #writeBioField{ /* class for all Basic Info fields*/
 	position:relative;
-	left:8%;
-	width:75%;
-	height:12.5%;
-	top:-698px;
+	left:0%;
+	width:23vw;
+	height:6vw;
+	top:3%;
 	font-size: 1.3vw;
 }
 
@@ -578,7 +607,7 @@ input[type=submit]:hover {
 	width: 30vw;
 	height: 47vw;
 	position: relative;
-	top: -809px;
+	top: -1097px;
 	left: 75%;
 }
 
@@ -603,9 +632,9 @@ input[type=submit]:hover {
 
 .whereRUfromFields{ /* class for all Basic Info fields*/
 	position:relative;
-	left:8%;
-	width:75%;
-	height:6%;
+	width:22.5vw;
+	height:2.9vw;
+	left:0%;
 	font-size: 1.6vw;
 }
 
@@ -614,54 +643,54 @@ input[type=submit]:hover {
 }
 
 #homeCUfield{
-	top:-87px;
+	top:3%;
 }
 
 #proDegTitle{
-	top:-9%;
+	top:-2.1%;
 }
 
 #proDegField{
-	top:-174px;
+	top:3.2%;
 }
 
 #gradYearTitle{
-	top:-21.7%;
+	top:-8.4%;
 }
 
 #gradYearField{
-	top:-261px;
+	top:2.4%;
 }
 
 #professionTitle{
-	top:-35.1%;
+	top:-15%;
 }
 
 #professionField{
-	top:-354px;
+	top:3%;
 }
 
 #cityTitle{
-	top:-48.3%;
+	top:-21.3%;
 }
 
 #cityField{
-	top:-441px;
+	top:3%;
 }
 
 #countryTitle{
-	top:-61.7%;
+	top:-28%;
 }
 
 #countryField{
-	top:-531px;
+	top:4%;
 }
 
 #biLoginLink {/* "Already have an account? Login" */
 	background-color: #479e54;
 	position: relative;
 	left: 79.6%;
-	top: -790px;
+	top: -1085px;
 	width: 23vw;
 	height: 3.5vw;
 	border-radius: 50px;
@@ -676,7 +705,7 @@ input[type=submit]:hover {
 	width: 30vw;
 	height: 40vw;
 	position: relative;
-	top: -669px;
+	top: -1019px;
 	left: 15%;
 }
 
