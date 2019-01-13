@@ -268,9 +268,9 @@ cuz "class="NavButton" is in its HTML code*/
 
 .typingFields{ /*The 3 places to type in info*/
 	position:relative;
-	left:8%;
-	width:75%;
-	height:7%;
+	left:4vw;
+	width:37vw;
+	height:3.5vw;
 	font-size: 2vw;
 }
 
@@ -294,25 +294,25 @@ cuz "class="NavButton" is in its HTML code*/
 	top:-15.5%;
 }
 #redoPassField{
-	top:-216px;
+	top:-15vw;
 }
 
 
 #ServiceTermsline{
 	position: relative;
 	left:18.7%;
-	top:-31%;
+	top:-14vw;
 	font-size: 1.1vw;
 }
 
 #createAccountButton{
 	background-color: #4fb05e;
-	border-radius: 7px;
+	border-radius: 0.5vw;
 	position:relative;
 	left:8.1%;
-	top:-199px;
-	width:75.5%;
-	height:8%;
+	top:-12vw;
+	width:37vw;
+	height:4vw;
 	color: white;
 	font-size: 2vw;
 }
@@ -320,7 +320,7 @@ cuz "class="NavButton" is in its HTML code*/
 #loginLink {/* "Already have an account? Login" */
 	position: relative;
 	left: 34.3%;
-	top:-80px;
+	top:-4vw;
 	width: 35vw;
 	font-size: 1.5vw;
 }
