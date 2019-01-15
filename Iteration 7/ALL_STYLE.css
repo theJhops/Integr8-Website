@@ -216,7 +216,7 @@ cuz "class="NavButton" is in its HTML code*/
 #ogText{
 	background-color:#ffeecc;	
 	position:relative;
-	width:950px;
+	width:70vw;
 	left:210px;
 	bottom:955px;
 	text-align: center;
@@ -471,7 +471,7 @@ input[type=submit]:hover {
 
 #signUp2ndWrapper {/* This div controls the width + length of the webpage */
    			width: 960px;
-    		height: 48px;
+    		height: 3.5vw;
     		padding-top: 0px;
 }
 
