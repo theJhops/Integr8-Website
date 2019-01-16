@@ -471,7 +471,7 @@ input[type=submit]:hover {
 
 #signUp2ndWrapper {/* This div controls the width + length of the webpage */
    			width: 960px;
-    		height: 3.5vw;
+    		height: 10.5vh;
     		padding-top: 0px;
 }
 
@@ -578,17 +578,17 @@ input[type=submit]:hover {
 }
 
 #langTitle{
-	top:-630.3%;
-	left:19%;
+	top:-40.3vh;
+	left:13vw;
 }
 
 #langField{
-	top:3%; /* for some reason this must be in pixels instead of percent */
+	top:3%; 
 }
 
 #writeBioTitle{
-	top:-718.3%;
-	left:19%;
+	top:-46.3vh;
+	left:13vw;
 }
 
 #writeBioField{ /* class for all Basic Info fields*/
