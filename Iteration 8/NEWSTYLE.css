@@ -3,7 +3,7 @@
 	background-color:#43a9f8;
     margin-bottom: 5vh;
     height: 9vh;
-    width:100vw;
+    width: 100vw;
   }
   
 #integr8Logo {
@@ -16,7 +16,7 @@
 
 /*below is the button and the profile image for the pforile section*/
 #NavbarProfile{
-	height: 3.5vw; /*CHECK IF YOU WANNA KEEP THIS SO IT'S BOTH AS 'VW' -- IT SEEMS TO SHRINK BETTER */
+	height: 3.5vw; /*KEEP SO IT'S BOTH AS 'VW' -- IT SEEMS TO SHRINK BETTER */
 	width: 3.5vw;
 }
 #ProfileLogo{
@@ -32,7 +32,7 @@
 	/* Style for all navigation buttons -- */
 	background-color: #4fb05e;
 	border-radius: 7px;
-	position:relative;
+	position: relative;
 	height: 6.5vh;
 	font-size: 1.4vw;
 	margin-top: 1vh;
@@ -57,12 +57,75 @@
 	border:none; 
 	font-size:15px; 
 	text-align:center;
-
 }
 
-#newhome {
+#newhome { /*body id for Home Page*/
+	background-color: #fef0d5;
 	position: fixed;
 	left: -2vw;
     padding-top: 0vh;
     padding-bottom: 0vh;
   }
+
+  #homePageBox{ /* CONTAINER FOR EVERYTHING ON HOME PAGE (UNDER THE NAVBAR)*/
+	position: relative;
+  	top: -5vh;
+  	left: -2vw;
+  	height: 30vh;
+  	width: 80vw;
+	background-color: #fef0d5;
+  }
+
+  #Line1{/* Are you a student going abroad? */
+	position:relative;
+	top: -3vh;
+	font-size: xx-large;
+	color: green;
+	text-align:center;
+
+}
+
+.top3HomePics{
+	position:relative; 
+	height: 35vh;
+}
+
+#HomePic1{ 
+	left: 0.3vw; 
+	width: 28vw; 
+	
+}
+
+#HomePic2{
+	left: 0.3vw; 
+	width: 13vw; 
+	
+}
+
+#HomePic3{
+	left: 0.3vw; 
+	width: 27vw; 
+	
+}
+
+#Line2{ /* Sign up and Integr8 into your... */
+	position:relative;
+	top: -32vh;
+	left: 72vw;
+	width: 24vw;
+	font-size: 2vw;
+}
+
+#signUpBtn{
+	position: relative;
+	background-color: #50b05e;
+	top: -25vh;
+	left: 78vw;
+	height: 4vw;
+	width: 10.5vw;
+	border-radius: 2vw;
+}
+
+#signUptxt{
+	font-size: 1.7vw;
+}
