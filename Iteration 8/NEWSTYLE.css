@@ -1,11 +1,11 @@
 /****************************************BELOW IS FOR TOP NAVBAR***************************/
 .navbar {
 	background-color:#43a9f8;
-    margin-bottom: 5vh;
-    top:-0.2vh;
+    margin-bottom: 2.8vw;
+    top:-0.1vw;
     left: -1vw;
-    height: 9vh;
-    width: 100vw;
+    height: 9.7vh;  /* keep this as 'vh' so it stays as big when shrunk down */
+    width: 101vw;
   }
   
 #integr8Logo {
@@ -16,48 +16,35 @@
 	width: 14.5vw;
   }
 
-/*below is the button and the profile image for Profile section*/
-#NavbarProfile{
-	height: 3.5vw; /*KEEP SO IT'S BOTH AS 'VW' -- IT SEEMS TO SHRINK BETTER */
-	width: 3.5vw;
-}
-#ProfileLogo{
-	position: relative;
-	top: -0.5vh;
-	left: -0.8vw;
-	height: 3.6vw;
-	width: 3.8vw;
-}
-
 /*below is class for Nav Buttons*/
 .NavButton{ 
 	/* Style for all navigation buttons -- */
 	background-color: #4fb05e;
-	border-radius: 7px;
-	position: relative;
-	height: 6.5vh;
+	border-radius: 0.5vw;
+	position: fixed;
+	height: 3.5vw;
 	font-size: 1.4vw;
-	margin-top: 1vh;
-	margin-bottom: 1vh;
+	margin-top: 0.5vw;
+	margin-bottom: 1vw;
 	margin-left: 1.5vw;
 }
 
 #loginNavBar{
-	position: relative;
-	top: 1vh;
-	left: 5.2vw;
-	font-size: 1.5vw;
+	position: fixed;
+	top: 0.6vw;
+	left: 78vw;
+	font-size: 1.6vw;
 }
 
 #searchBar{
-	position: relative;
+	position: fixed;
 	top: 2.2vh;
-	left: 6.5vw; 
+	left: 84.5vw; 
 	width: 12vw; 
-	height: 4vh;
+	height: 2.5vw;
 	border-radius:5px; 
 	border:none; 
-	font-size:15px; 
+	font-size:1.3vw; 
 	text-align:center;
 }
 
@@ -76,14 +63,15 @@
   	top: -5vh;
   	left: -1vw;
   	height: 30vh;
-  	width: 102.5vw;
+  	width: 101vw;
 	background-color: #fef0d5;
   }
 
   #Line1{/* Are you a student going abroad? */
 	position:relative;
-	top: -3vh;
-	font-size: xx-large;
+	top: -1.4vw;
+	left: -8vw;
+	font-size: 2.2vw;
 	color: green;
 	text-align:center;
 }
@@ -131,10 +119,10 @@
 
 }
 
-#Line3{ /* Sign up and Integr8 into your... */
+#Line3{ /* Filter and find new friends... */
 	color: black;
 	position:relative;
-	top: -10vh;
+	top: -6vw;
 	left: 30vw;
 	width: 44vw;
 	font-size: 2vw;
@@ -144,10 +132,11 @@
 	position: relative;
 	height: 12.1vw;
 	width: 15.3vw;
-	left: -5vw;
-	margin-top: -4vh;
+	left: -6.9vw;
+	margin-top: -3.5vh;
 	margin-bottom: 1vh;
-	margin-left: 8vw;
+	margin-left: 7vw;
+	padding-left: 0vw;
 	margin-right: 0vw;
 }
 
@@ -155,13 +144,13 @@
 	background-color: #479e54;
 	color: black;
 	position: relative;
-	height: 8vh;
+	height: 4.5vw;
 	width: 10vw;
-	left: -7.9vw;
+	left: -9.6vw;
 	border-radius: 1.3vw;
 	margin-top: 2vh;
 	margin-bottom: 1vh;
-	margin-left: 13.3vw;
+	margin-left: 12.3vw;
 	margin-right: 0vw;
 	font-size: 1.5vw;
 }
