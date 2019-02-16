@@ -2,29 +2,31 @@
 .navbar {
 	background-color:#43a9f8;
     margin-bottom: 5vh;
+    top:-0.2vh;
+    left: -1vw;
     height: 9vh;
     width: 100vw;
   }
   
 #integr8Logo {
 	position: relative;
-	top: -0.3vh;
-	left: -2vw;
-	height: 9vh;
-	width: 14vw;
+	top: -0.2vh;
+	left: -1vw;
+	height: 5vw;
+	width: 14.5vw;
   }
 
-/*below is the button and the profile image for the pforile section*/
+/*below is the button and the profile image for Profile section*/
 #NavbarProfile{
 	height: 3.5vw; /*KEEP SO IT'S BOTH AS 'VW' -- IT SEEMS TO SHRINK BETTER */
 	width: 3.5vw;
 }
 #ProfileLogo{
 	position: relative;
-	top: -0.3vh;
-	left: -0.6vw;
-	height: 3.5vw;
-	width: 3.6vw;
+	top: -0.5vh;
+	left: -0.8vw;
+	height: 3.6vw;
+	width: 3.8vw;
 }
 
 /*below is class for Nav Buttons*/
@@ -59,10 +61,12 @@
 	text-align:center;
 }
 
-#newhome { /*body id for Home Page*/
+#newhome { /*body id for Home Page --- CHANGE HEIGHT & WIDTH HERE TO CONTROL PAGE WIDTH OR HEIGHT */ 
 	background-color: #fef0d5;
-	position: fixed;
-	left: -2vw;
+	position: relative;
+	left: -8vw;
+	height: 120vh;
+	width: 97vw;
     padding-top: 0vh;
     padding-bottom: 0vh;
   }
@@ -70,9 +74,9 @@
   #homePageBox{ /* CONTAINER FOR EVERYTHING ON HOME PAGE (UNDER THE NAVBAR)*/
 	position: relative;
   	top: -5vh;
-  	left: -2vw;
+  	left: -1vw;
   	height: 30vh;
-  	width: 80vw;
+  	width: 102.5vw;
 	background-color: #fef0d5;
   }
 
@@ -82,35 +86,32 @@
 	font-size: xx-large;
 	color: green;
 	text-align:center;
-
 }
 
 .top3HomePics{
 	position:relative; 
-	height: 35vh;
+	height: 18vw;
 }
 
 #HomePic1{ 
 	left: 0.3vw; 
 	width: 28vw; 
-	
 }
 
 #HomePic2{
 	left: 0.3vw; 
-	width: 13vw; 
-	
+	width: 13vw; 	
 }
 
 #HomePic3{
 	left: 0.3vw; 
 	width: 27vw; 
-	
 }
 
 #Line2{ /* Sign up and Integr8 into your... */
+	color: black;
 	position:relative;
-	top: -32vh;
+	top: -15vw;
 	left: 72vw;
 	width: 24vw;
 	font-size: 2vw;
@@ -119,13 +120,50 @@
 #signUpBtn{
 	position: relative;
 	background-color: #50b05e;
-	top: -25vh;
+	top: -12vw;
 	left: 78vw;
 	height: 4vw;
-	width: 10.5vw;
+	width: 11.5vw;
 	border-radius: 2vw;
+	font-size: 2vw;
+	text-align: center;	
+	line-height: 1.1em; /*this code aligns the text vertically */
+
 }
 
-#signUptxt{
-	font-size: 1.7vw;
+#Line3{ /* Sign up and Integr8 into your... */
+	color: black;
+	position:relative;
+	top: -10vh;
+	left: 30vw;
+	width: 44vw;
+	font-size: 2vw;
 }
+
+.fourSmallerPics {/* style class for the 4 mid photos */
+	position: relative;
+	border: black 0.2vh solid;
+	height: 12.1vw;
+	width: 15.3vw;
+	left: -5vw;
+	margin-top: -4vh;
+	margin-bottom: 1vh;
+	margin-left: 8vw;
+	margin-right: 0vw;
+}
+
+.fourSmallerButtons{
+	background-color: #479e54;
+	color: black;
+	position: relative;
+	height: 8vh;
+	width: 10vw;
+	left: -7.9vw;
+	border-radius: 1.3vw;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+	margin-left: 13.3vw;
+	margin-right: 0vw;
+	font-size: 1.5vw;
+}
+
