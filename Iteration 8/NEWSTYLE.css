@@ -142,7 +142,6 @@
 
 .fourSmallerPics {/* style class for the 4 mid photos */
 	position: relative;
-	border: black 0.2vh solid;
 	height: 12.1vw;
 	width: 15.3vw;
 	left: -5vw;
