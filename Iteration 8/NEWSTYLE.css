@@ -5,7 +5,7 @@
     top:-0.1vw;
     left: -1vw;
     height: 9.7vh;  /* keep this as 'vh' so it stays as big when shrunk down */
-    width: 101vw;
+    width: 105vw; 
   }
   
 #integr8Logo {
@@ -22,7 +22,7 @@
 	background-color: #4fb05e;
 	border-radius: 0.5vw;
 	position: fixed;
-	height: 3.5vw;
+	height: 6.6vh;
 	font-size: 1.4vw;
 	margin-top: 0.5vw;
 	margin-bottom: 1vw;
@@ -31,21 +31,27 @@
 
 #loginNavBar{
 	position: fixed;
-	top: 0.6vw;
-	left: 78vw;
-	font-size: 1.6vw;
+	top: 0vw;
+	left: 79.2vw;
+	font-size: 1.5vw;
+	margin-top: 0.5vw;
+	margin-bottom: 1vw;
+	margin-left: 1.5vw;
 }
 
 #searchBar{
 	position: fixed;
-	top: 2.2vh;
-	left: 84.5vw; 
-	width: 12vw; 
-	height: 2.5vw;
+	top: 1.3vh;
+	left: 85vw; 
+	width: 11vw; 
+	height: 2.1vw;
 	border-radius:5px; 
 	border:none; 
 	font-size:1.3vw; 
 	text-align:center;
+	margin-top: 0.5vw;
+	margin-bottom: 1vw;
+	margin-left: 1.5vw;
 }
 
 #newhome { /*body id for Home Page --- CHANGE HEIGHT & WIDTH HERE TO CONTROL PAGE WIDTH OR HEIGHT */ 
@@ -60,18 +66,19 @@
 
   #homePageBox{ /* CONTAINER FOR EVERYTHING ON HOME PAGE (UNDER THE NAVBAR)*/
 	position: relative;
-  	top: -5vh;
+  	top: 0vh;
   	left: -1vw;
   	height: 30vh;
-  	width: 101vw;
+  	width: 104.8vw;
 	background-color: #fef0d5;
+	margin-top: -1vw;
   }
 
   #Line1{/* Are you a student going abroad? */
 	position:relative;
 	top: -1.4vw;
 	left: -8vw;
-	font-size: 2.2vw;
+	font-size: 2.7vw;
 	color: green;
 	text-align:center;
 }
@@ -123,19 +130,19 @@
 	color: black;
 	position:relative;
 	top: -6vw;
-	left: 30vw;
+	left: 25.5vw;
 	width: 44vw;
 	font-size: 2vw;
 }
 
 .fourSmallerPics {/* style class for the 4 mid photos */
 	position: relative;
-	height: 12.1vw;
-	width: 15.3vw;
-	left: -6.9vw;
+	height: 13.3vw;
+	width: 16.8vw;
+	left: -1.4vw;
 	margin-top: -3.5vh;
 	margin-bottom: 1vh;
-	margin-left: 7vw;
+	margin-left: 5vw;
 	padding-left: 0vw;
 	margin-right: 0vw;
 }
@@ -146,12 +153,72 @@
 	position: relative;
 	height: 4.5vw;
 	width: 10vw;
-	left: -9.6vw;
+	left: -5vw;
 	border-radius: 1.3vw;
 	margin-top: 2vh;
 	margin-bottom: 1vh;
-	margin-left: 12.3vw;
+	margin-left: 11.9vw;
 	margin-right: 0vw;
+	font-size: 1.5vw;
+}
+
+#FFline{/* "Find other exchange..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	top: 0vh;
+	width:17vw;
+	left:2vw;
+	font-size: 1.4vw;
+	margin-top: 1vw;
+	margin-left: 2vw;	
+}
+#FGline{
+	background-color: #ffeecc;
+	position:relative;
+	top: -10.3vw; /*for some reason, this line (which is EXACTLY the same as the one before it) goes way up when you put it to "0vh"*/
+	width:17vw;
+	left:24vw;
+	font-size: 1.4vw;
+	margin-top: 2.5vw;
+	margin-left: 2vw;
+}
+#FEline { /* "With your new friends..."(paragraph) */
+	background-color: #ffeecc;
+	position:relative;
+	top: -20.6vw; /*for some reason, this line (which is EXACTLY the same as the one before it) goes way up when you put it to "0vh"*/
+	width:17vw;
+	left:46vw;
+	font-size: 1.4vw;
+	margin-top: 2.5vw;
+	margin-left: 2vw;
+}
+#FJline{
+	background-color: #ffeecc;
+	position:relative;
+	top: -32.8vw; /*for some reason, this line (which is EXACTLY the same as the one before it) goes way up when you put it to "0vh"*/
+	width:17vw;
+	left:68vw;
+	font-size: 1.4vw;
+	margin-top: 2.5vw;
+	margin-left: 2vw;
+}
+
+#ogTitle{/* Vision Statement */
+	background-color:#ffeecc;
+	position:relative;
+	top:-25vw;
+	left:41vw;
+	width:20vw;
+	font-size: 2.2vw;
+	}
+
+#ogText{
+	background-color:#ffeecc;	
+	position:relative;
+	top:-23.5vw;
+	left:11vw;
+	width:70vw;
+	text-align: center;
 	font-size: 1.5vw;
 }
 
