@@ -56,7 +56,7 @@
 	margin-left: 1.5vw;
 }
 
-#newhome { /*body id for Home Page --- CHANGE HEIGHT & WIDTH HERE TO CONTROL PAGE WIDTH OR HEIGHT */ 
+#home { /*body id for Home Page --- CHANGE HEIGHT & WIDTH HERE TO CONTROL PAGE WIDTH OR HEIGHT */ 
 	background-color: #fef0d5;
 	position: relative;
 	left: -10vw;
