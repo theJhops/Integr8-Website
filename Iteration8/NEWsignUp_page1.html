@@ -49,7 +49,7 @@
             <!-- this list contains all other links/others things in the navbar: FROM THE INTEGR8 LOGO TO THE SEARCH BAR -->
            
             <ul class="nav navbar-nav"> <!--THIS HAS JUST THE NAV BUTTONS--> 
-              <li class="active"><a href="#" class="NavButton"><p style="color:#50b05e">Home</p></a></li> <!-- default selected "active" . SWAP THIS "ACTIVE" BIT OF CODE INTO THE OTHER WEBPAGES & ALSO TEXT COLOR, IT SHOWS THEY'RE ON THE PAGE-->
+              <li class="active"><a href="home.html" class="NavButton"><p style="color:#50b05e">Home</p></a></li> <!-- default selected "active" . SWAP THIS "ACTIVE" BIT OF CODE INTO THE OTHER WEBPAGES & ALSO TEXT COLOR, IT SHOWS THEY'RE ON THE PAGE-->
 
               <li><a href="#" class="NavButton"><p style="color:white">Profile</p></a></li>
               <li><a href="#" class="NavButton"><p style="color:white">Find Friends</p></a></li>
@@ -68,64 +68,37 @@
         </div><!--/.container-fluid -->
       </nav>      
 
-                      <!--END OF THE TOP NAVBAR-->
+                      <!--END OF TOP NAVBAR-->
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div id="homePageBox" class="jumbotron"><!--"jumbotron" you can put in almost any valid HTML-->
-        
-        <div id="Line1"><h>Are you a student going abroad?</h></div>
-        <img id="HomePic1" class="top3HomePics" src="https://images.unsplash.com/photo-1470653503930-01819ee7ec83?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47a8ff9951985e7d861f79b14905be4a&auto=format&fit=crop&w=1050&q=80"> 
-        <img id="HomePic2" class="top3HomePics" src="https://images.unsplash.com/photo-1532728097062-7ac9901d3229?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f28120f32013776f4e3168a7b682af4d&auto=format&fit=crop&w=500&q=60">
-        <img id="HomePic3" class="top3HomePics" src="https://images.unsplash.com/photo-1530616858450-99ba4525057d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff48660478b07a2d3cea539bbb447708&auto=format&fit=crop&w=1050&q=80">
-        
-    <div id="Line2">Sign up and Integr8 into your new surroundings!
-    </div>
+      <div id="signUp1Box" class="jumbotron"><!--"jumbotron" you can put in almost any valid HTML-->
+      <!--this code below means the International/Exchange green button/-->
+	<button id="intExchangeStudent" class="categoryButtons"> <a href="Signup_page2.html"> <img style= "position:relative; width:31vw; height:21vw; bottom:-9px; left:0px; border-radius: 5px" src="https://images.unsplash.com/photo-1472717400230-1c592a3179d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+		<p style="position:relative; left:0vw; top:2vw; font-size:2.4vw; color:white;">International Student</p>
+		<p style="position:relative; left:0vw; top:0vw; font-size:1.8vw;  text-decoration:none; color:white;"> <i>I'm a student who left my home country for a post-secondary program abroad.</i></p></a>
+	</button>
 
-    <a id="signUpBtn" class="btn btn-lg btn-primary" href="NEWregister_email.html" role="button"><h>Sign up &raquo;</h>
-    </a>          <!---the "Sign up!" Button-->
 
-    <div id="Line3">Filter and find new friends, jobs, and more...
-    </div>
-   
-    <img style="margin-left:7vw;" src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="fourSmallerPics"> 
+<!--this code below is for the blue Mobile student button/-->
+	<button id="mobileStudent" class="categoryButtons"><a href="Signup_page2.html"><img style= "position:relative; width:31vw; height:21vw; bottom:-9px; left:0px; border-radius: 5px" src="https://images.unsplash.com/photo-1535954769838-a1a5b3bfdd44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+		<p style="position:relative; left:0vw; top:2vw; font-size:2.4vw;">Mobile Student</p>
+		<p style="position:relative; left:0vw; top:0vw; font-size:1.8vw;"> <i>I'm a student completing my studies in a different part of my home country.</i></p></a>
+	</button>
 
-    <img src="https://images.unsplash.com/photo-1531796311868-83672cd144f3?ixlib=rb-0.3.5&s=f4a3a4b05b34ccec044de31361839a6b&auto=format&fit=crop&w=967&q=80" class="fourSmallerPics">
+<div id="describeUrselfLine"><h>How do you describe yourself?</h></div>
 
-    <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f9b9cb51ea58b136b1ccfc012192afcc&auto=format&fit=crop&w=1050&q=80" class="fourSmallerPics">
 
-    <img style="margin-right:-4.9vw;" src="https://images.unsplash.com/photo-1524861646941-b897e7f18230?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=235a20eeaa1ec85187e88f01e9f02fe9&auto=format&fit=crop&w=1050&q=80" class="fourSmallerPics">
+<!--this code below is for the red Professional Abroad button/-->
+	<button id="profAbroad" class="categoryButtons"><a href="Signup_page2.html"><img style= "position:relative; width:31vw; height:21vw; bottom:-9px; left:0px; border-radius: 5px" src="https://images.unsplash.com/photo-1500444889843-aa1250ef12b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+		<p style="position:relative; left:0vw; top:2vw; font-size:2.4vw">Professional Abroad</p>
+		<p style="position:relative; left:0vw; top:0vw; font-size:1.8vw;"> <i>I'm not a student, but I've moved abroad for my work -- temporarily or not.</i></p></a>
+	</button>
 
-    <button class="fourSmallerButtons"><h>Find Friends</h> </button>
-    <button class="fourSmallerButtons"><h>Find Groups</h> </button>
-    <button class="fourSmallerButtons"><h> Find Events</h> </button>
-    <button style="margin-right:-3vw;" class="fourSmallerButtons"><h> Find Jobs</h></button>
- 
-    <div id="FFline"> 
-      <h>Find other students from your hometown (or from elsewhere!) while you circle the globe </h>
-    </div>
-    <div id="FGline"><h>After you sign up, you can filter and join groups by your favourite interests and hobbies</h>
-      </div>
-      <div id="FEline"><h>With your new friends, sign up and check out nearby events that fit whatever passion or cause you want to be a part of</h></div>
-      <div id="FJline"><h>Land a job specifically meant for exchange students while you're overseas so you can keep making money</h></div>
-    
-    <div id="ogTitle">
-      <h> Our Goal:</h></div>
-    <div id="ogText">
-      <h><i>When students join Integr8, they enter a platform tailored enough to fulfill their dreams of studying abroad that they fly back home smiling, since they’ll know it couldn’t have gone better.</i></h></div>
-
-    <div id="ifYouAreLine"><h> If you are currently:</h></div>
-
-    <div id="whatareyou">
-      <ul style="list-style-type:circle"> <b>
-        <li style="font-weight:lighter; padding-top:1vw"> an exchange student</li>
-        <li style="font-weight:lighter;"> a <u> future</u> exchange student</li>
-        <li style="font-weight:lighter;"> a <u> former</u> exchange student</li>
-        <li style="font-weight:lighter;">a travelling student</li>
-        <li style="font-weight:lighter; margin-right:3vw;">someone/a group who wants to help these students</li></b>
-      </ul>
-    </div>
-
-  <div id="ThenThisisLine"><h>then this is the platform to help you!</h></div>
+	<button id="bizorOrg" class="categoryButtons"><img style= "position:relative; width:31vw; height:21vw; bottom:-9px; left:0px; border-radius: 5px" src="https://images.unsplash.com/photo-1535448606533-07a2789ef57e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1148&q=80">
+		<p style="position:relative; left:0vw; top:2vw; font-size:2.4vw">Business/Organisation</p>
+		<p style="position:relative; left:0vw; top:0vw; font-size:1.8vw;"> <i>I'm not a student -- I'm part of a business or organisation that wants to help these groups.</i></p>
+	</button>  
+      
 
 
     <!--this code is for the bottom blue banner-->

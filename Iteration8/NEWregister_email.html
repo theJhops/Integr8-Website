@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"> <!--/this tag ensures any computer running the code will know it's Unicode when it encodes it/-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--MAYBE keep the "shrint-to-fit" part-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--MAYBE keep the "shrink-to-fit" part-->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico"> <!--this link is for the lil pic that appears in the tab of the browser-->
 
-    <title>Integr8 Global Networks</title>
+    <title>Navbar Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -24,19 +24,19 @@
     <![endif]-->
   </head>
 
-  <body id="home"><!--ADD ID FOR EVERY PAGE SO IN CSS YOU CAN IDENTIFY & ONLY CHANGE ITS STYLE)-->
+  <body id="REpage"><!--ADD ID FOR EVERY PAGE SO IN CSS YOU CAN IDENTIFY & ONLY CHANGE ITS STYLE)-->
 
     <div class="container"> <!-- container for whole page -->
 
       <!-- Static navbar -->
       <nav class="navbar navbar-default navbar-fixed"> <!-- navbar-default: grey nav bar, navbar-inverse: black navbar THE "FIXED" KEEPS THE POSITION FIXED-->
         
-        <div class="container-fluid"> <!-- container just for navbar-->
+        <div class="container-fluid" > <!-- container just for navbar-->
           
            <div class="navbar-header"> <!-- put the brand name / logo in here! -->
             <img id="integr8Logo" src="https://live.staticflickr.com/65535/48084540351_60b33f1684.jpg"><!-- logo / brand name -> can use photos / link to home page here --> 
             <!-- this button allows users to toggle dropdown menu when screen is small enough -->
-            <button type="button" style="left:-20vw;"class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <!-- these spans are just the hamburger menu, which only appears on small screen-->
               <span class="icon-bar"></span>
@@ -49,8 +49,7 @@
             <!-- this list contains all other links/others things in the navbar: FROM THE INTEGR8 LOGO TO THE SEARCH BAR -->
            
             <ul class="nav navbar-nav"> <!--THIS HAS JUST THE NAV BUTTONS--> 
-              <li class="active"><a href="#" class="NavButton"><p style="color:#50b05e">Home</p></a></li> <!-- default selected "active" . SWAP THIS "ACTIVE" BIT OF CODE INTO THE OTHER WEBPAGES & ALSO TEXT COLOR, IT SHOWS THEY'RE ON THE PAGE-->
-
+              <li><a href="home.html" class="NavButton"><p style="color:white">Home</p></a></li> <!-- default selected "active" . SWAP THIS "ACTIVE" BIT OF CODE INTO THE OTHER WEBPAGES & ALSO TEXT COLOR, IT SHOWS THEY'RE ON THE PAGE-->
               <li><a href="#" class="NavButton"><p style="color:white">Profile</p></a></li>
               <li><a href="#" class="NavButton"><p style="color:white">Find Friends</p></a></li>
               <li><a href="#" class="NavButton"><p style="color:white">Groups</p></a></li>
@@ -58,8 +57,7 @@
               <li><a href="#" class="NavButton"><p style="color:white">Events</p></a></li>
               <li><a href="#" class="NavButton"><p style="color:white">Jobs</p></a></li>
                  <div class="container-fluid">
-                  <li><a href="login.html" id="loginNavBar"><p style="color:white;">Login</p></a></li>
-                  </div>
+                  <li><a href="login.html" id="loginNavBar"><p style="color:white">Login</p></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               
@@ -71,62 +69,29 @@
                       <!--END OF THE TOP NAVBAR-->
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div id="homePageBox" class="jumbotron"><!--"jumbotron" you can put in almost any valid HTML-->
+      <div id="REbox" class="jumbotron"><!--"jumbotron" you can put in almost any valid HTML-->
+        <form action="Signup_page1.php"> <!--"<form action" specifies where the form's data is sent when it's submitted. Change the yellow part of this to the Sign Up page you make-->
+          <div class="registerForm">
+            <div id="registerTitle"><b>Register</b></div><br>
+            <!--the <hr> tag makes horizontal lines to seperate content-->
         
-        <div id="Line1"><h>Are you a student going abroad?</h></div>
-        <img id="HomePic1" class="top3HomePics" src="https://images.unsplash.com/photo-1470653503930-01819ee7ec83?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47a8ff9951985e7d861f79b14905be4a&auto=format&fit=crop&w=1050&q=80"> 
-        <img id="HomePic2" class="top3HomePics" src="https://images.unsplash.com/photo-1532728097062-7ac9901d3229?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f28120f32013776f4e3168a7b682af4d&auto=format&fit=crop&w=500&q=60">
-        <img id="HomePic3" class="top3HomePics" src="https://images.unsplash.com/photo-1530616858450-99ba4525057d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff48660478b07a2d3cea539bbb447708&auto=format&fit=crop&w=1050&q=80">
+            <div id="emailAddress" class="formTitles">Email address</div>
+            <input id="emailTypeField" class="typingFields" type="text" required>
         
-    <div id="Line2">Sign up and Integr8 into your new surroundings!
-    </div>
-
-    <a id="signUpBtn" class="btn btn-lg btn-primary" href="NEWregister_email.html" role="button"><h>Sign up &raquo;</h>
-    </a>          <!---the "Sign up!" Button-->
-
-    <div id="Line3">Filter and find new friends, jobs, and more...
-    </div>
-   
-    <img style="margin-left:7vw;" src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="fourSmallerPics"> 
-
-    <img src="https://images.unsplash.com/photo-1531796311868-83672cd144f3?ixlib=rb-0.3.5&s=f4a3a4b05b34ccec044de31361839a6b&auto=format&fit=crop&w=967&q=80" class="fourSmallerPics">
-
-    <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f9b9cb51ea58b136b1ccfc012192afcc&auto=format&fit=crop&w=1050&q=80" class="fourSmallerPics">
-
-    <img style="margin-right:-4.9vw;" src="https://images.unsplash.com/photo-1524861646941-b897e7f18230?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=235a20eeaa1ec85187e88f01e9f02fe9&auto=format&fit=crop&w=1050&q=80" class="fourSmallerPics">
-
-    <button class="fourSmallerButtons"><h>Find Friends</h> </button>
-    <button class="fourSmallerButtons"><h>Find Groups</h> </button>
-    <button class="fourSmallerButtons"><h> Find Events</h> </button>
-    <button style="margin-right:-3vw;" class="fourSmallerButtons"><h> Find Jobs</h></button>
- 
-    <div id="FFline"> 
-      <h>Find other students from your hometown (or from elsewhere!) while you circle the globe </h>
-    </div>
-    <div id="FGline"><h>After you sign up, you can filter and join groups by your favourite interests and hobbies</h>
-      </div>
-      <div id="FEline"><h>With your new friends, sign up and check out nearby events that fit whatever passion or cause you want to be a part of</h></div>
-      <div id="FJline"><h>Land a job specifically meant for exchange students while you're overseas so you can keep making money</h></div>
-    
-    <div id="ogTitle">
-      <h> Our Goal:</h></div>
-    <div id="ogText">
-      <h><i>When students join Integr8, they enter a platform tailored enough to fulfill their dreams of studying abroad that they fly back home smiling, since they’ll know it couldn’t have gone better.</i></h></div>
-
-    <div id="ifYouAreLine"><h> If you are currently:</h></div>
-
-    <div id="whatareyou">
-      <ul style="list-style-type:circle"> <b>
-        <li style="font-weight:lighter; padding-top:1vw"> an exchange student</li>
-        <li style="font-weight:lighter;"> a <u> future</u> exchange student</li>
-        <li style="font-weight:lighter;"> a <u> former</u> exchange student</li>
-        <li style="font-weight:lighter;">a travelling student</li>
-        <li style="font-weight:lighter; margin-right:3vw;">someone/a group who wants to help these students</li></b>
-      </ul>
-    </div>
-
-  <div id="ThenThisisLine"><h>then this is the platform to help you!</h></div>
-
+        
+            <div id="passwordTitle" class="formTitles"> Password</div>
+            <input id="passTypeField" class="typingFields" type="password" required>
+        
+            <div id="redoPassTitle" class="formTitles"> Repeat Password</div>
+            <input id="redoPassField" class="typingFields" type="password" required>
+        
+            <div id="ServiceTermsline" class="lowerTitles"> By creating an account you agree to our <a href="#">Terms and Privacy</a>.</div>
+            
+            <button id="createAccountButton" type="submit"> <a href="NEWsignUp_page1.html">Create My Account</a></button>
+          
+            <div id="loginLink"class="lowerTitles">Already have an account? <a href="login.html">Login</a>.<!--Add Login page link here--></div> 
+            </div>
+        </form>
 
     <!--this code is for the bottom blue banner-->
     <nav id="bottomNavbar" class="navbar navbar-default">
