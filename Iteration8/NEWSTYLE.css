@@ -242,12 +242,13 @@
 	background-color: #43a9f8; 
 	position: relative;
 	top: 10vw; 
-	left: -3vw; 
+	left: -7vw; 
 	width:136vw; 
 	height: 28vh; /* keep it as "vh" so the bottom banner adapts to screen size */
 	margin-bottom: -0.5vw;
 	margin-right: -3vw;
 }
+
 #ContactUsLine{
 	position: relative; 
 	color: black;
@@ -415,12 +416,6 @@ input[type=submit]:hover {
     font-family: 'ABeeZee', sans-serif;
 }
 
-#loginWrapper {/* This div controls the width + length of the webpage */
-            width: 960px;
-            height: 770px;
-            padding-top: 0px;
-            }
-
 .loginForm {
 	background-color: white;
 	width: 45vw;
@@ -483,27 +478,21 @@ input[type=submit]:hover {
 }
 /****************************************BELOW IS FOR SIGN UP 1st PAGE***************************/
 
+#SignUp1page {
+    background-color: #ffeecc;
+    font-family: 'ABeeZee', sans-serif;
+}
+
 #signUp1Box{ /* CONTAINER FOR EVERYTHING ON HOME PAGE (UNDER THE NAVBAR)*/
 	position: relative;
 	background-color: #fef0d5;
 	top: 10vh;
-  	left: -6vw;
+  	left: -13vw;
   	height: 133vh;
   	width: 140vw;
 	margin-top: -1vw;
 	z-index: 0; /*MAKES ALL CONTENT UNDER NAVBAR SCROLL UDNERNEATH NAVBAR*/
   }
-
-#signUp1stPage {
-    background-color: #ffeecc;
-    font-family: 'ABeeZee', sans-serif;
-}
-
-#signUp1stWrapper {/* This div controls the width + length of the webpage */
-            width: 960px;
-            height: 516px;
-            padding-top: 0px;
-            }
 
 .categoryButtons{
 	position:relative;
@@ -550,4 +539,339 @@ input[type=submit]:hover {
 	background-color: #663300;
 	left: 28vw;
 	top: -1.7vw;
+}
+
+/****************************************BELOW IS FOR SIGN UP 2nd PAGE***************************/
+
+#SignUp2page{ /*body id for --- CHANGE HEIGHT & WIDTH HERE TO CONTROL PAGE WIDTH OR HEIGHT */ 
+	background-color: #fef0d5;
+	position: relative;
+	left: 0vw;
+	top:-55vw;
+	height: 106vh;
+	width: 100vw; /* CHANGE THIS HERE TO FIX THE WIDTH ISSUES */
+  }
+
+#signUp2Box{ /* CONTAINER FOR EVERYTHING ON HOME PAGE (UNDER THE NAVBAR)*/
+	position: relative;
+	top: 10vh;
+	left: -11vw;
+	height:15vw;
+  	width: 100vw;
+	margin-top: -1vw;
+	z-index: 0; /*MAKES ALL CONTENT UNDER NAVBAR SCROLL UDNERNEATH NAVBAR*/
+  }
+
+#signUp2Title{
+	position:relative;
+	top: 55vw;
+	left:25%;
+	font-size: 3.6vh;
+} 
+/* "Basic Info" Form sheet */
+.basicInfoForm {
+	background-color: white;
+	position: relative;
+	width: 30vw;
+	height: 50vw;
+	top: 54vw;
+	left: 10vw;
+}
+
+#basicInfoTitle{
+	background-color: #4fb05e;
+	width:13vw;
+	height:3.4vw;
+	color: white;
+	font-size:1.8vw;
+	text-align: center;
+	line-height: 2em; /*this code aligns the text vertically */
+}
+
+
+.biFormTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.biTypingFields{ /* class for all Basic Info fields*/
+	position:relative;
+	width:22.5vw;
+	height:3vw;
+	left:0%;
+	font-size: 1.6vw;
+}
+
+#firstNameTitle{
+	top:3.7%;
+}
+
+#firstNameField{
+	top:3%; 
+}
+
+#lastNameTitle{
+	top:-2%;
+}
+
+#lastNameField{
+	top:3%; 
+}
+
+#bdayTitle{
+	top:-8%;
+}
+
+#genderTitle{
+	top:-14%;
+}
+
+#maleButton{
+	position:relative;
+	top:-1.3vw;
+	left:13%;
+}
+
+#maleTitle{
+	position: relative;
+	left:63%;
+	top:-3vw;
+	font-size: 1.3vw;
+}
+
+#femaleButton{
+	position:relative;
+	top:-2.5vw;
+	left:49.5%;
+}
+
+#femaleTitle{
+	position:relative; 
+	left:63%;
+	top:-4.2vw;
+	font-size: 1.3vw;
+}
+
+#oGenderTitle{
+	position: relative;
+	top:-13vw;
+	left:9%;
+	font-size: 1.4vw;
+}
+
+#oGenderField{
+	position:relative;
+	top:0.4vw;
+	left:0.7%; 
+	width:59%; 
+	height:2vw; 
+	font-size: 1.6vw;
+}
+
+#langTitle{
+	top:-11.4vw;
+}
+
+#langField{
+	top:0%;
+}
+
+#writeBioTitle{
+	top:-15.3vw;
+}
+
+#writeBioField{ /* class for all Basic Info fields*/
+	position:relative;
+	left:0%;
+	width:23vw;
+	height:6vw;
+	top:3%;
+	font-size: 1.3vw;
+}
+
+/* "Where are you from?"" Form sheet */
+
+.whereRUfromForm {
+	background-color: white;
+	position: relative;
+	width: 30vw;
+	height: 50vw;
+	top: 4vw;
+	left: 50vw;
+}
+
+#whereAreYouFromTitle{
+	background-color: #4fb05e;
+	width:20vw;
+	height:3.4vw;
+	color: white;
+	font-size: 1.8vw;
+	text-align: center;
+	line-height: 2em; /*this code aligns the text vertically */
+}
+
+.whereRUfromTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.whereRUfromFields{ /* class for all Basic Info fields*/
+	position:relative;
+	width:22.5vw;
+	height:2.9vw;
+	left:0%;
+	font-size: 1.6vw;
+}
+
+#homeCUtitle{
+	top:4%;
+}
+
+#homeCUfield{
+	top:3%;
+}
+
+#proDegTitle{
+	top:-1.5%;
+}
+
+#proDegField{
+	top:3.2%;
+}
+
+#gradYearTitle{
+	top:-7.8%;
+}
+
+#gradYearField{
+	top:2.4%;
+}
+
+#professionTitle{
+	top:-14%;
+}
+
+#professionField{
+	top:3%;
+}
+
+#cityTitle{
+	top:-20%;
+}
+
+#cityField{
+	top:3%;
+}
+
+#countryTitle{
+	top:-26.5%;
+}
+
+#countryField{
+	top:4%;
+}
+
+#biLoginLink {/* "Already have an account? Login" */
+	background-color: #479e54;
+	position: relative;
+	left: 34.5%;
+	top: 7vw;
+	width: 26vw;
+	height: 3.5vw;
+	border-radius: 2vw;
+	font-size: 1.6vw;
+	line-height: 0em; /* align texts vertically */
+}
+
+/* "Where are you going?" Form sheet */
+.whereRUgoingForm {
+	background-color: white;
+	position: relative;
+	width: 30vw;
+	height: 41vw;
+	top: 9.5vw;
+	left: 30.5vw;
+}
+
+#whereAreYouGoingTitle{
+	background-color: #4fb05e;
+	width:20vw;
+	height:3.4vw;
+	color: white;
+	font-size: 1.8vw;
+	text-align: center;
+	line-height: 2em; /*this code aligns the text vertically */
+}
+
+.whereRUgoingTitles{ /*class to change traits of all titles*/
+	position:relative;
+	width:15vw;
+	height:10vw;
+	left:8%;
+	font-size: 1.5vw;
+}
+
+.whereRUgoingFields{ /* class for fields*/
+	position:relative;
+	width:22.5vw;
+	height:2.9vw;
+	left:8%;
+	font-size: 1.6vw;
+}
+
+#hostCUtitle{
+	top:3.5%;
+}
+
+#hostCUfield{
+	top:-6vw;
+}
+
+#whenArriveTitle{
+	top:-11.6%;
+}
+
+#whenArriveField{
+	top:-12.5vw;
+}
+
+#whenLeaveTitle{
+	top:-27%;
+}
+
+#whenLeaveField{
+	top:-18.8vw;
+}
+
+#hostCityTitle{
+	top:-41.3%;
+}
+
+#hostCityField{
+	top:-24.8vw;
+}
+
+#hostCountryTitle{
+	top:-56%;
+}
+
+#hostCountryField{
+	top:-31vw;
+}
+
+#Signup2bottomNavbar{
+	background-color: #43a9f8; 
+	position: relative;
+	top: 21vw; 
+	left: -9vw; 
+	width:136vw; 
+	height: 30.8vh; /* keep it as "vh" so the bottom banner adapts to screen size */
+	margin-bottom: -7.5vw;
+	margin-right: -3vw;
 }
